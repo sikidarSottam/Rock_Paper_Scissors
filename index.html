@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock - Paper - Scissors</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 
 </head>
-<body>  
-    
+
+<body>
+
+    <div class="game-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <p class="instructions">Choose one to play!</p>
+
+        <div class="choices">
+            <button class="choice-btn" data-choice="rock">🪨 Rock</button>
+            <button class="choice-btn" data-choice="paper">📄 Paper</button>
+            <button class="choice-btn" data-choice="scissors">✂️ Scissors</button>
+        </div>
+
+        <div class="results">
+            <p id="round">Round: 0 / 5</p>
+            <p id="player-choice"></p>
+            <p id="computer-choice"></p>
+            <p id="round-result"></p>
+            <p id="score">Score - You: 0 | Computer: 0</p>
+            <p id="final-result"></p>
+        </div>
+    </div>
+
 </body>
+
 </html>
